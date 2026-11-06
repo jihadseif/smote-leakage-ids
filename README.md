@@ -30,7 +30,7 @@ Full numbers: [`results/results_summary.csv`](results/results_summary.csv) · pe
 
 ## Why this matters to me
 
-I hit this in my own final-year project, [SLAI-IPS](https://jihadseif-design.github.io/#slai-ips), an AI-driven intrusion prevention system for MQTT smart-home networks. My early scores were inflated by resampling before the split. I rebuilt the evaluation (stratified 70/30 split, SMOTE on training data only, an untouched test partition, cross-validation), and the corrected held-out results are the ones I report and presented at ICACIn'26. This repo isolates that mistake so it is easy to see and easy to avoid.
+I hit this in my own final-year project, [SLAI-IPS](https://jihadseif.github.io/#slai-ips), an AI-driven intrusion prevention system for MQTT smart-home networks. My early scores were inflated by resampling before the split. I rebuilt the evaluation (stratified 70/30 split, SMOTE on training data only, an untouched test partition, cross-validation), and the corrected held-out results are the ones I report and presented at ICACIn'26. This repo isolates that mistake so it is easy to see and easy to avoid.
 
 ## Run it
 
