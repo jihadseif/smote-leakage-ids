@@ -1,0 +1,7 @@
+,,macro_f1,macro_f1,accuracy,accuracy,rarest_class_recall,rarest_class_recall
+,,mean,std,mean,std,mean,std
+setting,protocol,,,,,,
+5-fold CV,leaky (SMOTE before split),0.9846,0.0006,,,,
+5-fold CV,safe (SMOTE on train only),0.5315,0.0103,,,,
+70/30 hold-out,leaky (SMOTE before split),0.9827,0.0019,0.9828,0.0019,0.9974,0.003
+70/30 hold-out,safe (SMOTE on train only),0.5178,0.0103,0.8685,0.0037,0.0737,0.039
